@@ -1,7 +1,44 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sai Krishna Chaitanya Annavazala</title>
+  <style>
+    body { font-family: system-ui, Arial, sans-serif; max-width: 820px; margin: 2rem auto; line-height: 1.6; }
+    h1 { margin-bottom: .25rem; }
+    .tag { color:#555; }
+    nav a { margin-right: 1rem; }
+    section { margin: 2rem 0; }
+    footer { margin-top: 3rem; font-size: .9rem; color: #666; }
+  </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+  <header>
+    <h1>Sai Krishna Chaitanya Annavazala</h1>
+    <div class="tag">Data Analyst • MRI/QC • ML for Neuroimaging</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>I build containerized neuroimaging pipelines (DTI, BrainMaGe, StructuralConnectivity) and MRI QC/artifact detection models at UPenn DiCIPHR Lab.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>
+      <a href="mailto:chaitanya.annavazala@gmail.com">Email</a> ·
+      <a href="https://www.linkedin.com/in/annavazala/">LinkedIn</a> ·
+      <a href="https://github.com/SaiKrishnaChaitanya24">GitHub</a>
+    </p>
+  </section>
+
+  <footer>© <span id="y"></span> Sai Krishna Chaitanya Annavazala</footer>
+  <script>document.getElementById('y').textContent = new Date().getFullYear()</script>
 </body>
 </html>
